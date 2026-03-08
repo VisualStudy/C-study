@@ -13,5 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="example">
+      <UniqueIdentifier>{b9cc6ee1-5576-4835-88ea-4e2a08e56a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="example\basic">
+      <UniqueIdentifier>{2881fac7-5f70-433b-bba9-dcc30b1badfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="example\condition">
+      <UniqueIdentifier>{0a8d7208-c7ff-436b-852c-7165c016bee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="example\loop">
+      <UniqueIdentifier>{2637def3-a64c-4117-8cfd-76a70dea081b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="example\array">
+      <UniqueIdentifier>{a7917451-dd74-49c3-832d-a7d69302f879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="example\pointer">
+      <UniqueIdentifier>{848081e9-842d-4626-8c0b-0b206afded00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="laboratory.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="hello.c">
+      <Filter>example\basic</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
