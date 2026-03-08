@@ -31,6 +31,9 @@
     <Filter Include="example\pointer">
       <UniqueIdentifier>{848081e9-842d-4626-8c0b-0b206afded00}</UniqueIdentifier>
     </Filter>
+    <Filter Include="think-coding">
+      <UniqueIdentifier>{67eccd59-e13e-42f6-893d-935b9d2be14a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="laboratory.c">
@@ -38,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="hello.c">
       <Filter>example\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="fibonacci.c">
+      <Filter>think-coding</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
