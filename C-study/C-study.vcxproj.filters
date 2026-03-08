@@ -45,5 +45,8 @@
     <ClCompile Include="fibonacci.c">
       <Filter>think-coding</Filter>
     </ClCompile>
+    <ClCompile Include="sum.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
