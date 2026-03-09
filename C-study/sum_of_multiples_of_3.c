@@ -7,18 +7,14 @@ int main(void)
 
 	int n;
 	int i;
-	int sum;
-	sum = 0;
+	int sum = 0;
 
 	printf("얼마까지 더할까?: ");
 	scanf("%d", &n);
 
-	for (i = 0; i <= n; i++)
+	for (i = 3; i <= n; i += 3)
 	{
-		if (i % 3 == 0)
-		{
-			sum += i;
-		}
+		sum += i;
 	}
 
 	printf("다 더한 값은 %d구나!\n", sum);
