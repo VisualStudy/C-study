@@ -46,6 +46,9 @@
       <Filter>think-coding</Filter>
     </ClCompile>
     <ClCompile Include="sum.c">
+      <Filter>think-coding</Filter>
+    </ClCompile>
+    <ClCompile Include="sum_of_multiples_of_3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
