@@ -63,5 +63,8 @@
     <ClCompile Include="lcm_basic.c">
       <Filter>think-coding</Filter>
     </ClCompile>
+    <ClCompile Include="divisors_basic.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
