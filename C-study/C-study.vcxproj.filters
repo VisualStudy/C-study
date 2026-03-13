@@ -64,7 +64,13 @@
       <Filter>think-coding</Filter>
     </ClCompile>
     <ClCompile Include="divisors_basic.c">
-      <Filter>소스 파일</Filter>
+      <Filter>think-coding</Filter>
+    </ClCompile>
+    <ClCompile Include="fibonacci_1.c">
+      <Filter>think-coding</Filter>
+    </ClCompile>
+    <ClCompile Include="fibonacci_1_recursive.c">
+      <Filter>think-coding</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
