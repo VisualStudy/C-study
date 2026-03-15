@@ -75,5 +75,8 @@
     <ClCompile Include="fibonacci_1_recursive_refactoring.c">
       <Filter>think-coding</Filter>
     </ClCompile>
+    <ClCompile Include="fibonacci_1_recursive_only.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -20,6 +20,11 @@ int main(void)
 	int i;
 	int n;
 
+	printf("C언어로 피보나치 수열 구현하기\n");
+	printf("재귀문(재귀 함수) 사용 버전\n");
+	printf("초기값은 1, 1\n");
+	printf("20256121 박지호\n");
+	printf("------------------------------------\n");
 	printf("몇까지 반복: ");
 	scanf("%d", &n);
 
