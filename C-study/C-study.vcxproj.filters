@@ -73,7 +73,7 @@
       <Filter>think-coding</Filter>
     </ClCompile>
     <ClCompile Include="fibonacci_1_recursive_refactoring.c">
-      <Filter>소스 파일</Filter>
+      <Filter>think-coding</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
