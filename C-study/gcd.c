@@ -5,6 +5,7 @@ int main(void)
 {
 	int x, y;
 
+	printf("두 수 입력: ");
 	scanf("%d %d", &x, &y);
 
 	while (x != y)
