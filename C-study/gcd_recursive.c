@@ -28,7 +28,7 @@ int main(void)
 	printf("두 수 입력: ");
 	scanf("%d %d", &x, &y);
 
-	printf("최대공약수: %d\n", gcd(x, y));
+	printf("최대공약수:  %d\n", gcd(x, y));
 
 	return 0;
 }
