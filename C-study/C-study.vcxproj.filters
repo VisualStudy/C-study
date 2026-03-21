@@ -82,6 +82,12 @@
       <Filter>think-coding</Filter>
     </ClCompile>
     <ClCompile Include="gcd_recursive.c">
+      <Filter>think-coding</Filter>
+    </ClCompile>
+    <ClCompile Include="gcd_for_recursive.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gcd_for.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
