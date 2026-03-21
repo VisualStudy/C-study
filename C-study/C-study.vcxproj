@@ -154,7 +154,7 @@
     <ClCompile Include="gcd_basic.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="gcd_for.c" />
+    <ClCompile Include="gcd_iteration.c" />
     <ClCompile Include="gcd_for_recursive.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
