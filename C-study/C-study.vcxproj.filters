@@ -97,7 +97,7 @@
       <Filter>think-coding</Filter>
     </ClCompile>
     <ClCompile Include="lcm_recursive.c">
-      <Filter>소스 파일</Filter>
+      <Filter>think-coding</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
