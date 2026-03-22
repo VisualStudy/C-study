@@ -91,6 +91,12 @@
       <Filter>think-coding</Filter>
     </ClCompile>
     <ClCompile Include="gcd_recursive_printf.c">
+      <Filter>think-coding</Filter>
+    </ClCompile>
+    <ClCompile Include="lcm_iteration.c">
+      <Filter>think-coding</Filter>
+    </ClCompile>
+    <ClCompile Include="lcm_recursive.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
