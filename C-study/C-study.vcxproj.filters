@@ -99,5 +99,8 @@
     <ClCompile Include="lcm_recursive.c">
       <Filter>think-coding</Filter>
     </ClCompile>
+    <ClCompile Include="gcd_for.c">
+      <Filter>think-coding</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
