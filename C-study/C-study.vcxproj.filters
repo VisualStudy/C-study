@@ -105,5 +105,8 @@
     <ClCompile Include="lcm_for.c">
       <Filter>think-coding</Filter>
     </ClCompile>
+    <ClCompile Include="print_primes.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
