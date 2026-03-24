@@ -15,6 +15,7 @@ int main(void)
 			if (i % j == 0)
 			{
 				Prime = 0;
+
 				break;
 			}
 		}
