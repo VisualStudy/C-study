@@ -3,7 +3,7 @@
 int main(void)
 {
     int i, j;
-    int isPrime;
+    int Prime;
 
     printf("-------소수(PrimeNumber) 구하기-------\n");
     printf("범위는 1부터 10000까지의 자연수입니다.\n");
@@ -12,18 +12,18 @@ int main(void)
 
     for (i = 2; i <= 10000; i++)
     {
-        isPrime = 1;  
+        Prime = 1;  
 
         for (j = 2; j < i; j++)
         {
             if (i % j == 0)
             {
-                isPrime = 0;
+                Prime = 0;
                 break;
             }
         }
 
-        if (isPrime == 1)
+        if (Prime == 1)
         {
             printf("%d는 소수입니다.\n", i);
         }
