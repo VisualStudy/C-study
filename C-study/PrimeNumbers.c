@@ -12,13 +12,13 @@ int main(void)
 
     for (i = 2; i <= 10000; i++)
     {
-        isPrime = 1;   // 일단 소수라고 가정
+        isPrime = 1;  
 
         for (j = 2; j < i; j++)
         {
             if (i % j == 0)
             {
-                isPrime = 0;  // 나누어 떨어지면 소수 아님
+                isPrime = 0;
                 break;
             }
         }
