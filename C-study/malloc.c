@@ -13,6 +13,8 @@ int main(int argc, char* argv[])
     {
         printf("일어날 일이 없는 일");
     }
+    else:
+    printf("존재");
 
     return 0;
 }
