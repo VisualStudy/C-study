@@ -13,8 +13,14 @@ int main(int argc, char* argv[])
     {
         printf("일어날 일이 없는 일");
     }
+    else if (raba == 2)
+    {
+        printf("another");
+    }
+    
     else:
     printf("존재");
+
 
     return 0;
 }
