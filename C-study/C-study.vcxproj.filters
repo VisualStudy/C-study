@@ -120,5 +120,8 @@
     <ClCompile Include="struct.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="c_malloc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
