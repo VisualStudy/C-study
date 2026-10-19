@@ -132,6 +132,9 @@
     <ClCompile Include="fibofibo.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="stack.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="power_recursion.c">
