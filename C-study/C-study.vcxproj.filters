@@ -129,5 +129,13 @@
     <ClCompile Include="struct_pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="fibofibo.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="power_recursion.c">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>
