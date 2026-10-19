@@ -41,6 +41,12 @@ int peek(STACK* s)
     return s->stack[s->top];
 }
 
+int is_full(STACK* s)
+{
+    return s->top == MAX - 1;
+}
+
+
 int main(void)
 {
     STACK s1;
