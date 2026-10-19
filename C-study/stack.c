@@ -25,7 +25,7 @@ int pop(STACK *s)
     {
         printf("스택 언더플로\n");
         
-        exit(1);
+        return -1;
     }
 
     return s->stack[s->top--];
@@ -36,6 +36,7 @@ int peek(STACK* s)
     if (s->top == -1)
     {
         printf("빈 스택\n");
+        return -1;
     }
 
     return s->stack[s->top];
@@ -46,7 +47,7 @@ int is_full(STACK* s)
     return s->top == MAX - 1;
 }
 
-is_empty(STACK* s)
+int is_empty(STACK* s)
 {
     return s->top == -1;
 }
