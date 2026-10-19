@@ -1,5 +1,15 @@
 ﻿#include <stdio.h>
 
+int fibo(int n)
+{
+    if (n == 0)
+    {
+        return 1;
+    }
+
+    return n * fibo(n - 1);
+}
+
 int power(int x, int n)
 {
     if (n == 0)
@@ -26,7 +36,14 @@ int main(void)
         sum *= i;
     }
     
-    printf("%d", n);
+    printf("%d", sum);
+
+    /*for (int i = n; i > 0; i--)
+    {
+        sum *= i;
+    }*/
+
+
 
     return 0;
 }
