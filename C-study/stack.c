@@ -11,7 +11,7 @@ void push(STACK* s, int x)
 {
     if (s->top == MAX - 1)
     {
-        printf("스택 오버플로");
+        printf("스택 오버플로\n");
         
         return;
     }
@@ -23,7 +23,7 @@ int pop(STACK *s)
 {
     if (s->top == -1)
     {
-        printf("스택 언더플로");
+        printf("스택 언더플로\n");
         
         exit(1);
     }
@@ -31,6 +31,15 @@ int pop(STACK *s)
     return s->stack[s->top--];
 }
 
+int peek(STACK* s)
+{
+    if (s->top == -1)
+    {
+        printf("빈 스택\n");
+    }
+
+    return s->stack[s->top];
+}
 
 int main(void)
 {
