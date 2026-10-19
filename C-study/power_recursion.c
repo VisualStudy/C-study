@@ -24,9 +24,15 @@ int main(void)
 {
     int n;
     int sum;
+    int pow;
+    int num;
+    int result;
 
     n = 0;
     sum = 1;
+    pow = 1;
+    num = 7;
+    result = 1;
     
     printf("횟수 입력: ");
     scanf("%d", &n);
@@ -43,7 +49,17 @@ int main(void)
         sum *= i;
     }*/
 
+    for (int i = n; i > 0; i--)
+    {
+        pow *= n;
+    }
 
+    for (int i = 0; i < n; i++)
+    {
+        result *= num;
+    }
+
+    // 출력문 작성
 
     return 0;
 }
