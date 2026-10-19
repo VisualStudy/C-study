@@ -46,6 +46,10 @@ int is_full(STACK* s)
     return s->top == MAX - 1;
 }
 
+is_empty(STACK* s)
+{
+    return s->top == -1;
+}
 
 int main(void)
 {
