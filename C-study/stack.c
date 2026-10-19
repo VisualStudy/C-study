@@ -19,6 +19,19 @@ void push(STACK* s, int x)
     s->stack[++s->top] = x;
 }
 
+int pop(STACK *s)
+{
+    if (s->top == -1)
+    {
+        printf("스택 언더플로");
+        
+        exit(1);
+    }
+
+    return s->stack[s->top--];
+}
+
+
 int main(void)
 {
     STACK s1;
