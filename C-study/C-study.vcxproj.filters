@@ -151,6 +151,9 @@
       <Filter>linear_data_structure</Filter>
     </ClCompile>
     <ClCompile Include="linear_stack.c">
+      <Filter>linear_data_structure</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_queue.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
